@@ -1,0 +1,23 @@
+Proje Özeti
+Veri Seti: 20 Newsgroups veri setinin şifrelenmiş versiyonu.
+
+Amaç: Şifrelenmiş metinleri çözmek ve doğru haber grubu kategorisine sınıflandırmak.
+
+Zorluk: Metinlerin şifrelenmiş olması, geleneksel metin sınıflandırma yöntemlerinin doğrudan uygulanmasını engelliyor.
+
+Neden Bu Proje Uygun?
+Kriptografi ve NLP'nin Buluşması: Bu proje, kriptografi ve doğal dil işleme alanlarını birleştirerek, her iki alanda da becerilerini geliştirmeni sağlar.
+
+Gerçek Dünya Uygulaması: Şifrelenmiş verilerin analizi, siber güvenlik ve veri koruma gibi alanlarda önemli bir beceridir.
+
+Yaratıcılık ve Problem Çözme: Şifrelenmiş metinleri çözmek, yaratıcı düşünme ve problem çözme yeteneklerini geliştirir.
+
+
+🧠 Nasıl Yaklaşabilirsin?
+Şifreleme Türünü Belirle: Verilerin hangi şifreleme yöntemiyle şifrelendiğini anlamaya çalış. Bu, çözümleme sürecinin ilk adımıdır.
+
+Şifre Çözme Algoritması Geliştir: Belirlediğin şifreleme yöntemine uygun bir çözümleme algoritması geliştir.
+
+Metin Sınıflandırma Modeli Eğit: Şifrelenmiş metinleri çözdükten sonra, bu metinleri doğru kategorilere sınıflandırmak için bir model eğit.
+
+Modeli Değerlendir: Modelinin performansını doğruluk, F1 skoru gibi metriklerle değerlendir.

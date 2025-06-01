@@ -1,0 +1,23 @@
+🧠 Proje Adı: Şifrelenmiş Haber Metinlerinin Sınıflandırılması (20 Newsgroups Ciphertext Challenge)
+
+📌 Proje Amacı:
+Bu projede, Kaggle üzerinde yayınlanan “20 Newsgroups Ciphertext Challenge” yarışması kapsamında, klasik şifreleme yöntemleriyle şifrelenmiş metinlerin ait olduğu haber kategorilerini tahmin etmeye yönelik bir yapay zeka modeli geliştirilmiştir.
+
+🧩 Zorluk:
+Veriler okunabilir değil; metinler karakter bazlı olarak şifrelenmiştir. Bu nedenle geleneksel kelime temelli NLP yöntemleri uygulanamaz. Şifre çözülmeden doğrudan sınıflandırma yapılması amaçlanmıştır.
+
+🛠️ Kullanılan Yöntemler:
+- `CountVectorizer` ile karakter düzeyinde (char-level) 1-3 ngram çıkarımı
+- `Logistic Regression` modeli ile sınıflandırma
+- 20 farklı hedef sınıf (kategori) ile çok sınıflı sınıflandırma
+- `Scikit-learn`, `pandas` ve `Streamlit` teknolojileri kullanılmıştır.
+
+📊 Model Başarımı:
+- Başarı oranı (Accuracy): **%63**
+- Macro F1 skoru: **0.63**
+- Özellikle sınıflar arası dağılım dengeli olduğu için genel başarı istikrarlı.
+
+🚀 Uygulama:
+- Model `.pkl` formatında kaydedildi.
+- `Streamlit` kullanılarak etkileşimli bir web uygulaması geliştirildi.
+- Kullanıcı, şifreli bir metin girdiğinde model metnin hangi haber kategorisine ait olduğunu tahmin ediyor.
